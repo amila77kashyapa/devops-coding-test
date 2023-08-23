@@ -23,7 +23,7 @@ The main goal is to create and run a Docker container with this Spring Boot appl
 
    Explanation - AWS is concerned, Chooses ECR repository with Jenkins CICD. Jenkins installed on EC2 instance. With this setup it allows to use Integrated AWS security through IAM for push & pull image. Also, this setup is very convenience since both CICD & repository are within the AWS ecosystem. Images upload and download is fast & Integration is straightforward.
 
-   ECR : 
+   ##ECR : 
        - Allowed to Easy Integration with Other AWS services EKS/ECS/Lambda 
         
        - ECR life cycle policy is providing more control for lifecycle management
@@ -34,7 +34,7 @@ The main goal is to create and run a Docker container with this Spring Boot appl
        
        - ECR provide High availability & durability.
 
-   Jenkins : Most famous CICD tool in the IT space with below features.
+   ##Jenkins : Most famous CICD tool in the IT space with below features.
        - Opensource tool
        
        - It is very extensible "There are over 1000 plugins"
